@@ -263,5 +263,8 @@ input[type=text] {
     #container{
         overflow: hidden;
     }
+    input[type=text]:focus {
+        width: 50%;
+    }
     
 }
