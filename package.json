@@ -5,10 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEDEN249/weatherApp.git"
+  },
+  "homepage": "https://github.com/NEDEN249/weatherApp",
   "keywords": [],
-  "author": "",
+  "author": "Nathan Eden",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
